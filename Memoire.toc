@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {1}Results}{1}% 
+\contentsline {subsection}{\numberline {1.1}Output}{1}% 
+\contentsline {subsubsection}{\numberline {1.1.1}Typical simluations}{1}% 
+\contentsline {subsubsection}{\numberline {1.1.2}Remembered Heroes}{1}% 
+\contentsline {subsection}{\numberline {1.2}Exogenous model: simulation outputs}{2}% 
+\contentsline {subsubsection}{\numberline {1.2.1}Main results}{2}% 
+\contentsline {subsubsection}{\numberline {1.2.2}Influence of \emph {ReproGainsThreshold} $RGT$}{3}% 
+\contentsline {subsubsection}{\numberline {1.2.3}Variation with \emph {SacrificeHeredity} $h$}{4}% 
+\contentsline {subsubsection}{\numberline {1.2.4}Variation with \emph {ReproductionRate} $r$}{5}% 
+\contentsline {subsection}{\numberline {1.3}Exogenous model: mathematical proof of concept}{5}% 
+\contentsline {subsubsection}{\numberline {1.3.1}Simplifying assumptions and characterization of equilibrium}{5}% 
+\contentsline {subsubsection}{\numberline {1.3.2}Existence of a self-sacrifice ESS}{6}% 
+\contentsline {subsubsection}{\numberline {1.3.3}Mathematical characterization of the ESS}{6}% 
+\contentsline {subsection}{\numberline {1.4}"Endogenous" model}{7}% 
+\contentsline {section}{\numberline {2}Perspectives}{7}% 
+\contentsline {subsection}{\numberline {2.1}Limitations}{7}% 
+\contentsline {section}{\numberline {A}Python stuff}{7}% 
+\contentsline {section}{\numberline {B}Mathematical demonstrations}{7}% 
+\contentsline {subsection}{\numberline {B.1}Exogenous model}{7}% 
+\contentsline {subsubsection}{\numberline {B.1.1}RemTH}{7}% 
+\contentsline {subsubsection}{\numberline {B.1.2}$\beta (p)$}{7}% 
+\contentsline {subsubsection}{\numberline {B.1.3}$R_{+}(A)$}{8}% 
