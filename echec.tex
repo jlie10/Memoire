@@ -1,0 +1,80 @@
+\begin{document}
+     
+This allows us to deduce first-order approximations for $\beta(p)$ and $p$ at (potential) ESS, as shown in
+\textbf{Appendix \ref{ss_e_a:ESS}}:
+
+\begin{equation}
+    \label{eq:ESS_e_duh_beta}
+    \beta(p) = \frac{r}{R_{max}}+\frac{1}{2}*(\frac{r}{R_{max}})^2*f
+\end{equation}
+
+ \begin{equation}
+    \label{eq:approx_p_exo}
+    p(S,M,f) = \frac{1}{1+M*\frac{log(1+S)}{S}}*
+    (1- \frac{\frac{1}{2}*
+    (\frac{log(1+S)}{S})^2}{1+M*\frac{log(1+S)}{S}})*f
+    \end{equation}
+
+
+
+
+
+Using (\ref{eq:grandchildren}), we deduce that both envisioned strategies are equivalent if
+and only if (at this level of approximation):
+\[\frac{Sr}{log(1+S)}(1-\frac{f\beta(p)}{2})\beta(p)^2=r  \]
+\begin{equation}
+    \label{eq:trinome_beta}
+    \iff f*\beta(p)^2 - 2*\beta(p) + 2*\frac{r}{R_{max}} = 0
+\end{equation}
+
+This is a quadratric equation in $\beta(p)$, whose reduced discriminant $\delta$ verifies:
+
+\[\delta = 1 - 2f\frac{r}{R_{max}} > 0 \textnormal{ since } 
+r<R_{max} \textnormal{ and } f \ll 1 
+\]
+
+Since $\beta(p)$ is smaller than 1, the
+only possible solution is:
+
+\[\beta(p) = \frac{1 - \sqrt{1-\frac{2fr}{R_{max}}}}{f} \]
+
+Yielding, for $f \ll 1$:
+
+\begin{equation}\tag{\ref{eq:ESS_e_duh_beta}}
+    \beta(p) = \frac{r}{R_{max}}+\frac{1}{2}*(\frac{r}{R_{max}})^2*f
+\end{equation}
+
+%Un peu con: equivalent a faire une approx violente avec tlm a Rmax ?
+%% ===> RAISONNEMENT TROP COMPLIQUE, il doit y avoir une maniere plus simple
+
+Since $\beta \colon [0,1] \to [0,1]$ is a bijection, as visible on
+ \textbf{Figure \ref{fig:beta}}, 
+ this yields a unique $p(f)$ = $\beta^{-1}(\frac{log(1+S}{S} + \frac{1}{2}(\frac{log(1+S)}{S})^2f)$
+ for a given $f$. With typical parameter values, and $f\leq 1\%$
+ we find $p \approx 9.3\%$, by zeroing in on p at a precision of .1\%.
+
+ In addition, if we suppose that $(1-p)^{M+1} \ll (1-p)$, which is the case here, then we
+ can calculate an approximation\footnote{Which would have yielded
+ $p \approx 9.4\%$.} for $p$:
+
+ \[p \approx \frac{1}{1+M*(\frac{log(1+S)}{S} + \frac{1}{2}*(\frac{log(1+S)}{S})^2*f)}\]
+
+
+ \begin{equation}
+    \tag{\ref{eq:approx_p_exo}b}
+    p \approx \frac{1}{1+M*\frac{log(1+S)}{S}}*
+    (1- \frac{\frac{1}{2}*
+    (\frac{log(1+S)}{S})^2}{1+M*\frac{log(1+S)}{S}})*f
+    \label{eq:p_grr_approx}
+    \end{equation}
+
+
+% \begin{equation}
+ %   \tag{\ref{eq:approx_p_exo}b}
+  %  p \approx \frac{S}{M*log(1+S)+S}
+ %\end{equation}
+
+ In a potential self-sacrifice ESS involving a negligible proportion $f$ of agents that lay down their
+ life with probability $p$, then $p$ can be thus approximated.
+
+\end{document}
