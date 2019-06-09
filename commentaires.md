@@ -13,6 +13,7 @@ IMPORTANT STUFF:
 %individuals end up strongly related (as a given heroes’ family invades the population).
 %% A virer d'ici : mettre dans resultats
 
+- relire partie interactions ---> quoi mettre ?
 
 
      
@@ -25,3 +26,13 @@ IMPORTANT STUFF:
 %%% xp Judas %%%%% dans OOpsJB
 %%%  AP 25 et 75 **** dans AP       %%% jusqu'a mille bon...
 %%%%% DC mode NBT (DP = 100)           %%% DC_nowgood_from0608/ %%% et 5...
+
+
+
+
+
+
+
+%%%%% FOR LATER:
+%%%%%%%%% JB = 0 marche pas...
+%%%%%%%%%%%%%% see interact_sym...

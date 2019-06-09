@@ -1,11 +1,10 @@
-%TODO : cf NOTES.md
+%TODO : cf NOTES.md ------------------ cf commentaires.md
 %Notes : check biblio, watch out for dates
 %Coherence du style : oops WE …
-%Attention EXAPTATION
+
 %Cool pour truc “paradoxal” : ++ si DP – ===> lie a ce pb d’honnete…
 
 %BRUIT D’EXPLORATION…
-%= critique … 
 
 %Argumenter que binaire mais pas du a artefact pour autant : perspectives…
 
@@ -28,7 +27,40 @@
 %\usepackage[nottoc]{tocbibind}
 %\usepackage{biblatex}
 \usepackage[T1]{fontenc}
-\usepackage{chngcntr}
+
+
+%%% Configuration of how scripts are shown
+\usepackage{listings}
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
+
+
+%%% 
 \usepackage{ntheorem}
 \theoremseparator{:}
 \newtheorem{hyp}{Hypothesis}
@@ -40,10 +72,14 @@
 \newtheorem*{spe_predict}{Specific predictions}
 
 
-\counterwithout{equation}{chapter} % 
+%%% Removing chapter numbers
+\usepackage{chngcntr}
+\counterwithout{equation}{chapter} 
 \counterwithout{table}{chapter}
-\counterwithout{figure}{chapter} % remove chapter number
+\counterwithout{figure}{chapter}
 \counterwithout{ass}{chapter}
+
+
 \usepackage{titlesec, blindtext, color}
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
@@ -866,15 +902,16 @@ first-order and second-order signals. Evolife is modular in structure;
 the script constituted a scenario implemented inside of Evolife.
 Both scripts can be found in \textbf{Appendix 
     \ref{a:scripts}}.
-    % 3 scripts ?
-%[GITHUB?]
 
 \subsection{“Exogenous” base script}
 Before implementing the actual script, a simplified version was
-implemented (\textbf{Exogenous.py}). In this version, the social value of self-sacrifice
+implemented (\textbf{Exogenous.py}). 
+This script serves as a basis for the full script, introduced below.
+
+In this version, the social value of self-sacrifice
 is fixed exogenously, and depends on an \emph{Admiration} parameter $A$.
 For the model to make sense, we expect that $A$ will control
-whether or not self-sacrifice emerges and at what level \textbf{SP0}.
+whether or not self-sacrifice emerges and at what level \textbf{(SP0)}.
 This model can be seen as a social alternative to the
 “economic” model developed by Blackwell (2008).
 
@@ -890,12 +927,12 @@ so as to correspond
 to a small yearly frequence of self-sacrifice, as per \textbf{(P\ref{p:low_freq})}.
 
 \begin{spe_predict*}
-    \label{p:low_proba}
+    \label{spe_p:exo}
     \leavevmode
     \begin{itemize}
         \item Admiration $A$ controls equilibrium probability of self-sacrifice $p$
-         (\textbf{SP0})
-        \item Even when $p>0$ emerges, it remains small (\textbf{SP\ref{p:low_freq}})
+         \textbf{(SP0)}
+        \item Even when $p>0$ emerges, it remains small \textbf{(SP\ref{p:low_freq}}
     \end{itemize}
 \end{spe_predict*}
 
@@ -912,25 +949,139 @@ ranking mode of selection.
 Admiration points indirectly gained by individuals are converted
 into \textbf{Reproductive points}, by taking the integer part of these
 points divided by a \emph{ReproGainsThreshold} parameter (typically fixed at 10).
-%oops 5 in pre-reg: bon osef...
-
-This script serves as a basis for the full script, introduced below.
 
 
+\subsection{Actual script structure}
+This script (\textbf{Sacrifice.py}) builds on the previous one.
+The idea is to see if admiration for heroes, and therefore self-sacrificial behavior,
+can emerge “endogenously”, in a context akin to inter-group conflict,
+as described previously. The previous dynamic and ranking mode of selection
+is conserved for self-sacrifice, while other genes (see under) follow a differential
+death mode of selection (as points gained or lost in the social interactions detailed
+under are later translated into life points).
 
-%%%%%%%%%%%%%%% COMMENCER ICIIIIIII et virer le truc en-dessou
-%%% COMMENCER ICI
+In addition to the \textbf{SelfSacrifice} gene, individuals are born with a 
+\textbf{Patriotism} phenotype, which represents their commitment to the group (quality).
+For technical reasons, \textbf{Patriotism} is either equal to 1 or 0: individuals
+can either be patriots (1) or non-patriots (0) – who may betray their friends (see
+\textbf{Section \ref{s:pat_np}}). This simplification
+is due to the fact that the simulation implements genetic "learning":
+while a continuous representation of patriotism (and propensity to betray)
+would have been prefereable, this would have required infinite number of genes
+(one per possible eventuality of honoring – see under).
 
-%%% TROUVER OU PLACER CA
+\begin{hyp}[H\ref{h:p_np}]
+    \label{h:p_np}
+    The population under study can be understood as composed of two types of individuals:
+    patriots and non-patriots.
+\end{hyp}
 
-% et lien avec cette section et le nouveau truc sur P / NP 
-%- partie 2 spécifier lhusgoire p/np pour : en fait 1.3.6=> truc continu. .. avec à la marge traîtres (comme premier modèle...)
-%Mais => Pb de Learning...
-%=> Decoupages : bon ba tant qu'à faire binaire
-%Puis à la fin : version 2... (Cf part 3) où JB disparaît / histoire change
-\subsection{Arguments in favor of the proposed signals’ honesty}
-\label{s:honesty}
-%%%%%%%%% BOF: mettre dans partie 2 non?
+(\textbf{H\ref{h:p_np}}) is however a powerful guarantor of the simulation's
+simplicity. To the extent that such a model can produce results that 
+are not artefacts of its binary nature, it may produce a easily understandable
+proof of concept.
+
+Individuals are also endowed with a \textbf{Demand} gene, as well as a \textbf{Patriot}
+and a \textbf{NonPatriot} gene, which respectively control their yearly
+investment in honoring heroes when they are patriots or not.
+
+When there are heroes to honor, this (costly) investment becomes a
+visible signal of their commitment to the group (patriotism).
+Individuals select their friends according to the potential
+signalers they encounter (if there are no heroes, every individuals
+signals at 0) and their \textbf{Demand}: any individual who signals above this
+value may be accepted as a friend (one interaction yields one new friend at the maximum).
+
+Friendship is assumed to be mutually beneficial:
+an individual with a low \textbf{Demand}
+will thus increase his/her chances of gaining from friendship.
+However, some \textbf{NonPatriot} individuals may be traitors:
+befriending them ends up being extremely costly, as they betray their friends
+in the final stage of the year, to their own gain.
+Thus, in uncertain conditions where being betrayed is a probable and costly outcome,
+individuals with high \textbf{Demand} should fare better.
+
+Expected cost of betrayal is thus expected to be a decisive factor, which should
+control the emergence of second-order signaling, as captured by 
+\textbf{Patriot} and \textbf{NonPatriot} \textbf{(SP'0)}. More precisely,
+we expect the resultant signal to be "honest" – in that,
+provided expected cost of betrayal is high enough, patriots should end up
+signaling at significantly higher levels than non-patriots, thus
+guaranteeing that the signal remains \emph{informative} to its audience \textbf{(SP'4)}.
+
+Following \textbf{(P\ref{p:reinforce})}, we expect second-order signal levels
+– and particularly those of patriots, following \textbf{(SP'4)} –
+to in turn control the emergence of \textbf{SelfSacrifice},
+with probability $p$ remaining small following \textbf{P\ref{p:low_freq}}.
+
+\begin{spe_predict*}
+    \label{spe_p:sacri}
+    \leavevmode
+    \begin{itemize}
+        \item Probability and cost of betrayal (and their product, expected cost
+        of betrayal) control the emergence of second-order signaling \textbf{(SP'0)}
+        \item Even when $p>0$ emerges, it remains small \textbf{(SP\ref{p:low_freq})}
+        \item First-order and second-order signals are mutually reinforcing. Thus,
+        expected cost of betrayal should also control the emergence, and to the extent
+        that $p$ remains smalls, the level of self-sacrifice \textbf{(SP\ref{p:reinforce})}
+        \item When both signals co-emerge, honoring should be honest to some extent
+        – so that individuals may use it to determine signalers' quality \textbf{(SP'4)}
+    \end{itemize}
+\end{spe_predict*}
+
+\subsection{Patriots and non-patriots}
+\label{s:pat_np}
+
+The population under study is thus made up of only two types, patriots and non-patriots.
+Seeing the centrality of betrayal in our proposed explanations, these qualities 
+are tied to the possibiltiy of betrayal in the simplest manner:
+non-patriots may betray their friends, while patriots are assured not to.
+Arbitrarily, these types each make up $50\%$ of the population, a proportion which
+cannot be modified in the simulation.
+
+Number of traitors however is configurable: when parameter \emph{NbTraitors} is equal
+to $t$, there are thus $t/2$ traitors in total in the population. When betrayal
+occurs, the aggrieved party bears a cost of \emph{DenunciationCost} (typically 100),
+while the 'traitor' is rewardede \emph{Judas} (25).
+% Changer le nom ? Un peu bizarre
+Otherwise, friendship entails a benefit of \emph{FriendshipValue} (10). In any case,
+'joining forces' with friends is expected to be beneficial – perhaps particularly 
+in time of uncertainty, being isolated is detrimental. Individuals obtain a linear
+bonus of \emph{JoiningBonus} (10) times their number of friends.
+%% Lien avec AlonePenalty qui pourrait etre deja fait...
+%%% COMMENCER ICI !!!!!!!!!!
+
+%%%% MIEUX RACONTER L'HISTOIRE !!!!!!!
+%%% COMMENCER ICI !!!!!!!!!!
+The simulation implements two 'modes', which puts a relative strain on 
+non-patriots second-order signaling. 
+In the first, non-patriots honoring signals are capped by \emph{MaxOffer} 
+(typically 50 out of 100).
+%%% COMMENCER ICI !!!!!!!!!!
+
+The idea is that these potential traitors should already have other investments
+– in the interpretation whereby they betray in favor of the other warring group,
+%%% car = investi dans ce groupe deja... = commited
+%%% ou si car = salaud (Judas), et ben individualiste : investi dans lui meme ?
+%%%% quoique Judas = mieux capture par en bas...........
+
+(in the rival group, in)
+Non-patriot's offering is capped: 
+they already have other investments (in the rival group, in themselves...)
+If social demand is too high, this could push them (perhaps similar to 'exclusive' signals: 
+one can't wear clothes tied to two social classes at once,
+or bear tatoos from two rival gangs...)
+
+%%%% MIEUX RACONTER L'HISTOIRE !!!!!!!
+Honoring is more costly for non-patriots: investing time (for instance)
+in the group is less-interesting than for patriots, since they aren't as committed
+to the group and thus stand to gain less in relative terms purely in relation to the group
+(opportunity cost)
+
+
+%%%%%%%%%%% SO => Honesty ?
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 As with any signaling model, honesty at equilibrium is key.
 While this does not appear to be a problem with respect to self-sacrifice,
 seeing its irremediable nature, explaining why honoring should be an honest
@@ -938,11 +1089,19 @@ signal is crucial. The idea is that the maximum amount which a dishonest
 signaler can invest in honoring should be capped to a lower level that that
 of an honest signaler, since he/she does not intend to be faithful to the
 group in the long-run and thus stands to gain less in terms of social benefits
-directly tied to such a group. Another way of looking at this is to consider
+directly tied to such a group. 
+%%%%%%%%%%%% C'est tout ???? ---- already gave up something...
+Another way of looking at this is to consider
 that a dishonest signaler should face a marginal cost premium, since investing
 time in the group is less interesting, as the signaler stands to gain relatively
 more from other sources (other groups, his- or herself).
 
+this could be the case if non-patriots honoring potential is capped
+(‘MaxOffer’ parameter) or if they face a signaling premium (‘DishonestPremium’).
+
+
+- that when ‘NbTraitors’ is high enough for there to be a selective pressure for having \textbf{Demand} above ‘MaxOffer’, honoring is a potentially honest signal. If, in addition, the benefits to patriots outweigh the costs, then honoring may emerge at such a level. Seeing as we chose ‘MaxOffer’ at a level which, in the “exogenous” script (for ‘Admiration’) was sufficient for self-sacrifice to emerge and stabilize, we that, provided that honoring can emerge, that self-sacrifice emerges as well ;
+We expect ‘MaxOffer’ to play a decisive role, as it should correspond to the potential equlibrium state – when it is attainable. Testing ‘MaxOffer’ at 100 would be a way of seeing the consequences of dishonest signaling: under normal conditions we would expect that \textbf{Demand} then rise to the maximum (as it is impossible to select patriot friends), precluding any signaling from emerging. However, if ‘Judas’ is high enough, signaling may paradoxically remain interesting for non-patriots and we would expect a dishonest signaling equilibrium to emerge.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% AVEC RADICALISATION ---> perspectives ???
@@ -985,50 +1144,17 @@ the proximate feeling of “extreme” identity fusion.
 
 
 
-\subsection{Actual script structure}
-This script ($bf{Sacrifice.py}$) builds on the previous one.
-The idea is to see if admiration for heroes, and therefore self-sacrificial behavior,
-can emerge “endogenously”, in a context akin to inter-group conflict,
-as described previously. The previous dynamic and ranking mode of selection
-is conserved for self-sacrifice, while other genes (see under) follow a differential
-death mode of selection (as points gained or lost in the social interactions detailed
-under are later translated into life points).
 
-In addition to the \textbf{SelfSacrifice} gene, individuals are born with a 
-\textbf{Patriotism} phenotype.
-%%%%%%%%%%%%%%%%% a reformuler / re-sepa
-– which, for the sake of simplicity is equal to 1 or 0.
-%%% peut etre pas besoin d'une section ?
-Individuals are also endowed with a \textbf{Demand} gene, as well as a \textbf{Patriot}
- and a \textbf{NonPatriot} gene, which respectively control their yearly
- investment in honoring heroes when they are patriots (1) or not (0).
 
-When there are heroes to honor, this (costly) investment becomes a
-visible signal of their commitment to the group (patriotism).
-Individuals select their friends according to the potential
-signalers they encounter (if there are no heroes, every individuals
-signals at 0) and their \textbf{Demand}: any individual who signals above this
-value may be accepted as a friend (one interaction yields one new friend at the maximum).
 
-Friendship is assumed to be mutually beneficial:
-an individual with a low \textbf{Demand}
-will thus increase his/her chances of gaining from friendship.
-However, some \textbf{NonPatriot} individuals may be traitors:
-befriending them ends up being extremely costly, as they betray their friends
-in the final stage of the year, to their own gain.
-Thus, in uncertain conditions where being betrayed is a probable and costly outcome,
-individuals with high \textbf{Demand} should fare better.
 
-In conditions where honoring is an honest signal of one’s
-future absence of betrayal, \textbf{Demand} and \textbf{Patriot}
-may thus potentially co-emerge, which may then (if \textbf{Patriot} is high enough)
-allow ‘Self-sacrifice’ to emerge. As argued above (see \textbf{Section \ref{s:honesty}})),
-this could be the case if non-patriots honoring potential is capped
-(‘MaxOffer’ parameter) or if they face a signaling premium (‘DishonestPremium’).
 
-%%%%% HERE OR JUST UNDER : explain why P / NP...
-%%%% option 2 = faire une section sur P / NP ===> aussi donc deux qualites en fait...
-%%%% qualite 2 = plus logique en fait...
+
+
+
+
+
+
 
 \subsection{Main variable parameters}
 %% Para a revoir .....
@@ -1834,6 +1960,10 @@ In practice not so much:
 %Oops NonPatriots that actually self-sacrifice....
 %% HERE MORE LIKE ?
 
+A 'social' version of learning, whereby ---> ca approte quoi ? // ok pas artefact
+
+
+
 \chapter{Perspectives}
 %%\section{Limitations}
 %Oops NonPatriots that actually self-sacrifice....
@@ -1851,11 +1981,16 @@ In practice not so much:
 %%%%%%%%%%%%%%% oops url too long...
 
 \appendix
-%\part{Appendix}
-%Take out IV?
 
-\chapter{Python stuff}
+\chapter{Python scripts}
 \label{a:scripts}
+
+\section{Exogenous.py}
+\lstinputlisting[language=Python]{Exogenous.py}
+
+\section{Sacrifice.py}
+\lstinputlisting[language=Python]{Sacrifice.py}
+
 \chapter{Mathematical demonstrations}
 
 \section{Exogenous model}

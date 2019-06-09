@@ -23,40 +23,42 @@
 \contentsline {section}{\numberline {2.2}Computer simulations}{29}% 
 \contentsline {subsection}{\numberline {2.2.1}Evolife}{29}% 
 \contentsline {subsection}{\numberline {2.2.2}\IeC {\textquotedblleft }Exogenous\IeC {\textquotedblright } base script}{30}% 
-\contentsline {subsection}{\numberline {2.2.3}Arguments in favor of the proposed signals\IeC {\textquoteright } honesty}{31}% 
-\contentsline {subsection}{\numberline {2.2.4}Actual script structure}{32}% 
-\contentsline {subsection}{\numberline {2.2.5}Main variable parameters}{33}% 
-\contentsline {subsection}{\numberline {2.2.6}Other fixed parameters (at least in a first stage)}{33}% 
-\contentsline {section}{\numberline {2.3}Predictions}{34}% 
-\contentsline {chapter}{\numberline {3}Results}{36}% 
-\contentsline {section}{\numberline {3.1}Output}{36}% 
-\contentsline {subsection}{\numberline {3.1.1}Typical simluations}{36}% 
-\contentsline {subsection}{\numberline {3.1.2}Remembered Heroes}{36}% 
-\contentsline {section}{\numberline {3.2}Exogenous model: simulation outputs}{37}% 
-\contentsline {subsection}{\numberline {3.2.1}Main results}{37}% 
-\contentsline {subsection}{\numberline {3.2.2}Influence of \emph {ReproGainsThreshold} $RGT$}{38}% 
-\contentsline {subsection}{\numberline {3.2.3}Variation with \emph {SacrificeHeredity} $h$}{40}% 
-\contentsline {subsection}{\numberline {3.2.4}Variation with \emph {ReproductionRate} $r$}{40}% 
-\contentsline {section}{\numberline {3.3}Exogenous model: mathematical proof of concept}{41}% 
-\contentsline {subsection}{\numberline {3.3.1}Simplifying assumptions and characterization of equilibrium}{41}% 
-\contentsline {subsection}{\numberline {3.3.2}Necessary condition for an ESS}{42}% 
-\contentsline {subsection}{\numberline {3.3.3}Mathematical characterization of the ESS}{43}% 
-\contentsline {subsection}{\numberline {3.3.4}Brief Discussion}{43}% 
-\contentsline {section}{\numberline {3.4}Two-tier model simulation outputs}{44}% 
-\contentsline {section}{\numberline {3.5}Two-tier model: mathematical analysis}{44}% 
-\contentsline {subsection}{\numberline {3.5.1}Self-sacrifice}{44}% 
-\contentsline {subsection}{\numberline {3.5.2}Honoring and social score}{45}% 
-\contentsline {subsection}{\numberline {3.5.3}Equilibrium when $t\leq \frac {F}{FC}$}{45}% 
-\contentsline {subsection}{\numberline {3.5.4}"Honest" equilibrium when $t \geq \frac {2F+P}{DC}$}{46}% 
-\contentsline {subsection}{\numberline {3.5.5}Dishonest equilibrium when $t \geq \frac {2F+P}{DC}$}{47}% 
-\contentsline {subsection}{\numberline {3.5.6}$\frac {F}{DC}<t<\frac {2F+P}{DC}$}{48}% 
-\contentsline {section}{\numberline {3.6}Second sacrifice model}{48}% 
-\contentsline {section}{\numberline {3.7}Limitations}{48}% 
-\contentsline {chapter}{\numberline {4}Perspectives}{49}% 
-\contentsline {chapter}{\numberline {A}Python stuff}{50}% 
-\contentsline {chapter}{\numberline {B}Mathematical demonstrations}{51}% 
-\contentsline {section}{\numberline {B.1}Exogenous model}{51}% 
-\contentsline {subsection}{\numberline {B.1.1}RemTH}{51}% 
-\contentsline {subsection}{\numberline {B.1.2}$\beta (p)$}{51}% 
-\contentsline {subsection}{\numberline {B.1.3}$R_{+}(A)$}{52}% 
-\contentsline {subsection}{\numberline {B.1.4}ESS}{54}% 
+\contentsline {subsection}{\numberline {2.2.3}Actual script structure}{31}% 
+\contentsline {subsection}{\numberline {2.2.4}Patriots and non-patriots}{33}% 
+\contentsline {subsection}{\numberline {2.2.5}Main variable parameters}{35}% 
+\contentsline {subsection}{\numberline {2.2.6}Other fixed parameters (at least in a first stage)}{35}% 
+\contentsline {section}{\numberline {2.3}Predictions}{36}% 
+\contentsline {chapter}{\numberline {3}Results}{38}% 
+\contentsline {section}{\numberline {3.1}Output}{38}% 
+\contentsline {subsection}{\numberline {3.1.1}Typical simluations}{38}% 
+\contentsline {subsection}{\numberline {3.1.2}Remembered Heroes}{38}% 
+\contentsline {section}{\numberline {3.2}Exogenous model: simulation outputs}{39}% 
+\contentsline {subsection}{\numberline {3.2.1}Main results}{39}% 
+\contentsline {subsection}{\numberline {3.2.2}Influence of \emph {ReproGainsThreshold} $RGT$}{40}% 
+\contentsline {subsection}{\numberline {3.2.3}Variation with \emph {SacrificeHeredity} $h$}{42}% 
+\contentsline {subsection}{\numberline {3.2.4}Variation with \emph {ReproductionRate} $r$}{42}% 
+\contentsline {section}{\numberline {3.3}Exogenous model: mathematical proof of concept}{43}% 
+\contentsline {subsection}{\numberline {3.3.1}Simplifying assumptions and characterization of equilibrium}{43}% 
+\contentsline {subsection}{\numberline {3.3.2}Necessary condition for an ESS}{44}% 
+\contentsline {subsection}{\numberline {3.3.3}Mathematical characterization of the ESS}{45}% 
+\contentsline {subsection}{\numberline {3.3.4}Brief Discussion}{45}% 
+\contentsline {section}{\numberline {3.4}Two-tier model simulation outputs}{46}% 
+\contentsline {section}{\numberline {3.5}Two-tier model: mathematical analysis}{46}% 
+\contentsline {subsection}{\numberline {3.5.1}Self-sacrifice}{46}% 
+\contentsline {subsection}{\numberline {3.5.2}Honoring and social score}{47}% 
+\contentsline {subsection}{\numberline {3.5.3}Equilibrium when $t\leq \frac {F}{FC}$}{47}% 
+\contentsline {subsection}{\numberline {3.5.4}"Honest" equilibrium when $t \geq \frac {2F+P}{DC}$}{48}% 
+\contentsline {subsection}{\numberline {3.5.5}Dishonest equilibrium when $t \geq \frac {2F+P}{DC}$}{49}% 
+\contentsline {subsection}{\numberline {3.5.6}$\frac {F}{DC}<t<\frac {2F+P}{DC}$}{50}% 
+\contentsline {section}{\numberline {3.6}Second sacrifice model}{50}% 
+\contentsline {section}{\numberline {3.7}Limitations}{50}% 
+\contentsline {chapter}{\numberline {4}Perspectives}{51}% 
+\contentsline {chapter}{\numberline {A}Python scripts}{52}% 
+\contentsline {section}{\numberline {A.1}Exogenous.py}{52}% 
+\contentsline {section}{\numberline {A.2}Sacrifice.py}{64}% 
+\contentsline {chapter}{\numberline {B}Mathematical demonstrations}{72}% 
+\contentsline {section}{\numberline {B.1}Exogenous model}{72}% 
+\contentsline {subsection}{\numberline {B.1.1}RemTH}{72}% 
+\contentsline {subsection}{\numberline {B.1.2}$\beta (p)$}{72}% 
+\contentsline {subsection}{\numberline {B.1.3}$R_{+}(A)$}{73}% 
+\contentsline {subsection}{\numberline {B.1.4}ESS}{75}% 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.2.18)  7 JUN 2019 22:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.2.18)  8 JUN 2019 04:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -191,85 +191,107 @@ Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
  (/usr/share/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (/usr/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty
-Package: chngcntr 2018/04/09 v1.1a change counter resetting
-Package chngcntr Info: \counterwithout already defined.
-(chngcntr)             Quitting chngcntr on input line 21.
-) (/usr/share/texmf-dist/tex/latex/ntheorem/ntheorem.sty
+)) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count111
+\lst@gtempboxa=\box31
+\lst@token=\toks23
+\lst@length=\count112
+\lst@currlwidth=\dimen126
+\lst@column=\count113
+\lst@pos=\count114
+\lst@lostspace=\dimen127
+\lst@width=\dimen128
+\lst@newlines=\count115
+\lst@lineno=\count116
+\lst@maxwidth=\dimen129
+ (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count117
+\lst@skipnumbers=\count118
+\lst@framebox=\box32
+) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+ (/usr/share/texmf-dist/tex/latex/ntheorem/ntheorem.sty
 Style `ntheorem', Version 1.33 <2011/08/15>
 Package: ntheorem 2011/08/15 1.33
-\theorem@style=\toks23
-\theorem@@style=\toks24
-\theorembodyfont=\toks25
-\theoremnumbering=\toks26
+\theorem@style=\toks24
+\theorem@@style=\toks25
+\theorembodyfont=\toks26
+\theoremnumbering=\toks27
 \theorempreskipamount=\skip54
 \theorempostskipamount=\skip55
 \theoremframepreskipamount=\skip56
 \theoremframepostskipamount=\skip57
 \theoreminframepreskipamount=\skip58
 \theoreminframepostskipamount=\skip59
-\theorem@preskip=\toks27
-\theorem@postskip=\toks28
-\theorem@framepreskip=\toks29
-\theorem@framepostskip=\toks30
-\theorem@inframepreskip=\toks31
-\theorem@inframepostskip=\toks32
-\theoremindent=\dimen126
-\theorem@indent=\dimen127
-\theoremrightindent=\dimen128
-\theorem@rightindent=\dimen129
-\theoremheaderfont=\toks33
-\theoremseparator=\toks34
-\theoremprework=\toks35
-\theorempostwork=\toks36
-\theoremsymbol=\toks37
-\qedsymbol=\toks38
-\theoremkeyword=\toks39
-\qedsymbol=\toks40
+\theorem@preskip=\toks28
+\theorem@postskip=\toks29
+\theorem@framepreskip=\toks30
+\theorem@framepostskip=\toks31
+\theorem@inframepreskip=\toks32
+\theorem@inframepostskip=\toks33
+\theoremindent=\dimen130
+\theorem@indent=\dimen131
+\theoremrightindent=\dimen132
+\theorem@rightindent=\dimen133
+\theoremheaderfont=\toks34
+\theoremseparator=\toks35
+\theoremprework=\toks36
+\theorempostwork=\toks37
+\theoremsymbol=\toks38
+\qedsymbol=\toks39
+\theoremkeyword=\toks40
+\qedsymbol=\toks41
 \thm@topsep=\skip60
 \thm@topsepadd=\skip61
 )
-\c@hyp=\count111
-\c@conj=\count112
-\c@ass=\count113
-\c@prop=\count114
-\c@quest=\count115
-\c@predict=\count116
-\c@spe_predict=\count117
- (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+\c@hyp=\count119
+\c@conj=\count120
+\c@ass=\count121
+\c@prop=\count122
+\c@quest=\count123
+\c@predict=\count124
+\c@spe_predict=\count125
+ (/usr/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box31
+\ttl@box=\box33
 \beforetitleunit=\skip62
 \aftertitleunit=\skip63
-\ttl@plus=\dimen130
-\ttl@minus=\dimen131
-\ttl@toksa=\toks41
-\titlewidth=\dimen132
-\titlewidthlast=\dimen133
-\titlewidthfirst=\dimen134
+\ttl@plus=\dimen134
+\ttl@minus=\dimen135
+\ttl@toksa=\toks42
+\titlewidth=\dimen136
+\titlewidthlast=\dimen137
+\titlewidthfirst=\dimen138
 ) (/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (/usr/share/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count118
-\c@Blindtext=\count119
-\c@blind@countparstart=\count120
-\blind@countxx=\count121
-\blindtext@numBlindtext=\count122
-\blind@countyy=\count123
-\c@blindlist=\count124
-\c@blindlistlevel=\count125
-\c@blindlist@level=\count126
-\blind@listitem=\count127
-\c@blind@listcount=\count128
-\c@blind@levelcount=\count129
-\blind@mathformula=\count130
-\blind@Mathformula=\count131
-\c@blind@randomcount=\count132
-\c@blind@randommax=\count133
-\c@blind@pangramcount=\count134
-\c@blind@pangrammax=\count135
+\c@blindtext=\count126
+\c@Blindtext=\count127
+\c@blind@countparstart=\count128
+\blind@countxx=\count129
+\blindtext@numBlindtext=\count130
+\blind@countyy=\count131
+\c@blindlist=\count132
+\c@blindlistlevel=\count133
+\c@blindlist@level=\count134
+\blind@listitem=\count135
+\c@blind@listcount=\count136
+\c@blind@levelcount=\count137
+\blind@mathformula=\count138
+\blind@Mathformula=\count139
+\c@blind@randomcount=\count140
+\c@blind@randommax=\count141
+\c@blind@pangramcount=\count142
+\c@blind@pangrammax=\count143
 ) (/home/tom/Documents/Stage/Memoire/Memoire.aux
 
 LaTeX Warning: Label `fig:h' multiply defined.
@@ -280,31 +302,31 @@ LaTeX Warning: Label `fig:h' multiply defined.
 )
 \openout1 = `Memoire.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count136
-\scratchdimen=\dimen135
-\scratchbox=\box32
-\nofMPsegments=\count137
-\nofMParguments=\count138
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count139
-\MPscratchDim=\dimen136
-\MPnumerator=\count140
-\makeMPintoPDFobject=\count141
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count144
+\scratchdimen=\dimen139
+\scratchbox=\box34
+\nofMPsegments=\count145
+\nofMParguments=\count146
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count147
+\MPscratchDim=\dimen140
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
+\everyMPtoPDFconversion=\toks44
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -340,14 +362,15 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@maskedRefs=\count142
+\c@maskedRefs=\count150
  (/usr/share/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-\AtBeginShipoutBox=\box33
+\AtBeginShipoutBox=\box35
  (/usr/share/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
  (/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
@@ -357,10 +380,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
  (/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
+\c@lstlisting=\count151
 <cogmaster.png, id=1, 549.55313pt x 510.40688pt>
 File: cogmaster.png Graphic file (type png)
 <use cogmaster.png>
-Package pdftex.def Info: cogmaster.png  used on input line 59.
+Package pdftex.def Info: cogmaster.png  used on input line 95.
 (pdftex.def)             Requested size: 97.5pt x 90.55307pt.
  [1
 
@@ -373,12 +397,12 @@ Package pdftex.def Info: cogmaster.png  used on input line 59.
  [3] [1
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 107.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 143.
  (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 143.
  [2
 
 ] [3
@@ -387,130 +411,130 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 <Prereg_v2.pdf, id=43, 597.6786pt x 795.68134pt>
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf>
-Package pdftex.def Info: Prereg_v2.pdf  used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf  used on input line 161.
 (pdftex.def)             Requested size: 597.67714pt x 795.6794pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf>
-Package pdftex.def Info: Prereg_v2.pdf  used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf  used on input line 161.
 (pdftex.def)             Requested size: 597.67714pt x 795.6794pt.
 <Prereg_v2.pdf, id=46, page=1, 597.6786pt x 795.68134pt>
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 1>
-Package pdftex.def Info: Prereg_v2.pdf , page1 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page1 used on input line 161.
 (pdftex.def)             Requested size: 597.67714pt x 795.6794pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 1>
-Package pdftex.def Info: Prereg_v2.pdf , page1 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page1 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 1>
-Package pdftex.def Info: Prereg_v2.pdf , page1 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page1 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 1>
-Package pdftex.def Info: Prereg_v2.pdf , page1 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page1 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 1>
-Package pdftex.def Info: Prereg_v2.pdf , page1 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page1 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
  [4 </home/tom/Documents/Stage/Memoire/Prereg_v2.pdf>]
 <Prereg_v2.pdf, id=67, page=2, 597.6786pt x 795.68134pt>
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 2>
-Package pdftex.def Info: Prereg_v2.pdf , page2 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page2 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 2>
-Package pdftex.def Info: Prereg_v2.pdf , page2 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page2 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 2>
-Package pdftex.def Info: Prereg_v2.pdf , page2 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page2 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
  [5 </home/tom/Documents/Stage/Memoire/Prereg_v2.pdf>]
 <Prereg_v2.pdf, id=72, page=3, 597.6786pt x 795.68134pt>
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 3>
-Package pdftex.def Info: Prereg_v2.pdf , page3 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page3 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 3>
-Package pdftex.def Info: Prereg_v2.pdf , page3 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page3 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 3>
-Package pdftex.def Info: Prereg_v2.pdf , page3 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page3 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
  [6 </home/tom/Documents/Stage/Memoire/Prereg_v2.pdf>]
 <Prereg_v2.pdf, id=77, page=4, 597.6786pt x 795.68134pt>
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 4>
-Package pdftex.def Info: Prereg_v2.pdf , page4 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page4 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 4>
-Package pdftex.def Info: Prereg_v2.pdf , page4 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page4 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 4>
-Package pdftex.def Info: Prereg_v2.pdf , page4 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page4 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
  [7 </home/tom/Documents/Stage/Memoire/Prereg_v2.pdf>]
 <Prereg_v2.pdf, id=82, page=5, 597.6786pt x 795.68134pt>
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 5>
-Package pdftex.def Info: Prereg_v2.pdf , page5 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page5 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 5>
-Package pdftex.def Info: Prereg_v2.pdf , page5 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page5 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 5>
-Package pdftex.def Info: Prereg_v2.pdf , page5 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page5 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
  [8 </home/tom/Documents/Stage/Memoire/Prereg_v2.pdf>]
 <Prereg_v2.pdf, id=87, page=6, 597.6786pt x 795.68134pt>
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 6>
-Package pdftex.def Info: Prereg_v2.pdf , page6 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page6 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 6>
-Package pdftex.def Info: Prereg_v2.pdf , page6 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page6 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 6>
-Package pdftex.def Info: Prereg_v2.pdf , page6 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page6 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
  [9 </home/tom/Documents/Stage/Memoire/Prereg_v2.pdf>]
 <Prereg_v2.pdf, id=93, page=7, 597.6786pt x 795.68134pt>
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 7>
-Package pdftex.def Info: Prereg_v2.pdf , page7 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page7 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 7>
-Package pdftex.def Info: Prereg_v2.pdf , page7 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page7 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 7>
-Package pdftex.def Info: Prereg_v2.pdf , page7 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page7 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
  [10 </home/tom/Documents/Stage/Memoire/Prereg_v2.pdf>]
 <Prereg_v2.pdf, id=98, page=8, 597.6786pt x 795.68134pt>
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 8>
-Package pdftex.def Info: Prereg_v2.pdf , page8 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page8 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 8>
-Package pdftex.def Info: Prereg_v2.pdf , page8 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page8 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
 File: Prereg_v2.pdf Graphic file (type pdf)
 <use Prereg_v2.pdf, page 8>
-Package pdftex.def Info: Prereg_v2.pdf , page8 used on input line 125.
+Package pdftex.def Info: Prereg_v2.pdf , page8 used on input line 161.
 (pdftex.def)             Requested size: 598.17873pt x 796.34715pt.
  [11 </home/tom/Documents/Stage/Memoire/Prereg_v2.pdf>] [12
 
@@ -522,13 +546,13 @@ Chapter 1.
 <aphid.png, id=123, 3854.4pt x 2168.1pt>
 File: aphid.png Graphic file (type png)
 <use aphid.png>
-Package pdftex.def Info: aphid.png  used on input line 337.
+Package pdftex.def Info: aphid.png  used on input line 373.
 (pdftex.def)             Requested size: 390.0pt x 219.37006pt.
  [17 </home/tom/Documents/Stage/Memoire/aphid.png>] [18] [19]
 <Slides_red.png, id=137, 1840.8775pt x 421.575pt>
 File: Slides_red.png Graphic file (type png)
 <use Slides_red.png>
-Package pdftex.def Info: Slides_red.png  used on input line 491.
+Package pdftex.def Info: Slides_red.png  used on input line 527.
 (pdftex.def)             Requested size: 390.0pt x 89.3117pt.
 
 
@@ -538,163 +562,168 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <gazelle_wiki.jpg, id=141, 108.70613pt x 121.35338pt>
 File: gazelle_wiki.jpg Graphic file (type jpg)
 <use gazelle_wiki.jpg>
-Package pdftex.def Info: gazelle_wiki.jpg  used on input line 517.
+Package pdftex.def Info: gazelle_wiki.jpg  used on input line 553.
 (pdftex.def)             Requested size: 117.00119pt x 130.61528pt.
 <cheetah_wiki.jpg, id=142, 2569.6pt x 1684.2925pt>
 File: cheetah_wiki.jpg Graphic file (type jpg)
 <use cheetah_wiki.jpg>
-Package pdftex.def Info: cheetah_wiki.jpg  used on input line 521.
+Package pdftex.def Info: cheetah_wiki.jpg  used on input line 557.
 (pdftex.def)             Requested size: 155.99762pt x 102.2354pt.
  [21 </home/tom/Documents/Stage/Memoire/Slides_red.png> </home/tom/Documents/Stage/Memoire/gazelle_wiki.jpg> </home/tom/Documents/Stage/Memoire/cheetah_wiki.jpg>] [22]
 <Asym_sgl_JLD.jpg, id=152, 669.50125pt x 284.06125pt>
 File: Asym_sgl_JLD.jpg Graphic file (type jpg)
 <use Asym_sgl_JLD.jpg>
-Package pdftex.def Info: Asym_sgl_JLD.jpg  used on input line 608.
+Package pdftex.def Info: Asym_sgl_JLD.jpg  used on input line 644.
 (pdftex.def)             Requested size: 312.00119pt x 132.38184pt.
  [23 </home/tom/Documents/Stage/Memoire/Asym_sgl_JLD.jpg>]
 <Sym_sgl_JLD.jpg, id=156, 31.72482pt x 39.21738pt>
 File: Sym_sgl_JLD.jpg Graphic file (type jpg)
 <use Sym_sgl_JLD.jpg>
-Package pdftex.def Info: Sym_sgl_JLD.jpg  used on input line 634.
+Package pdftex.def Info: Sym_sgl_JLD.jpg  used on input line 670.
 (pdftex.def)             Requested size: 234.00238pt x 289.3219pt.
  [24 </home/tom/Documents/Stage/Memoire/Sym_sgl_JLD.jpg>] [25]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 723.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 759.
  [26] [27]
 Chapter 2.
 [28
 
-] [29] [30] [31] [32] [33] [34] [35]
+] [29] [30] [31] [32] [33] [34] [35] [36] [37]
 Chapter 3.
 
-Overfull \hbox (3.50923pt too wide) in paragraph at lines 1143--1151
+Overfull \hbox (3.50923pt too wide) in paragraph at lines 1269--1277
 \T1/cmr/m/n/12 where self-sacrificial be-hav-ior can be said to be ab-sent, $[]$
  []
 
-[36
+[38
 
 ]
-<RGT_10.png, id=201, 462.528pt x 346.896pt>
+<RGT_10.png, id=208, 462.528pt x 346.896pt>
 File: RGT_10.png Graphic file (type png)
 <use RGT_10.png>
-Package pdftex.def Info: RGT_10.png  used on input line 1158.
+Package pdftex.def Info: RGT_10.png  used on input line 1284.
 (pdftex.def)             Requested size: 390.0pt x 292.5128pt.
- [37 </home/tom/Documents/Stage/Memoire/RGT_10.png>]
-<Exo_Genome.png, id=207, 67.75313pt x 75.28125pt>
+ [39 </home/tom/Documents/Stage/Memoire/RGT_10.png>]
+<Exo_Genome.png, id=214, 67.75313pt x 75.28125pt>
 File: Exo_Genome.png Graphic file (type png)
 <use Exo_Genome.png>
-Package pdftex.def Info: Exo_Genome.png  used on input line 1180.
+Package pdftex.def Info: Exo_Genome.png  used on input line 1306.
 (pdftex.def)             Requested size: 117.00554pt x 117.01208pt.
-<Exo_Field.png, id=208, 150.5625pt x 112.92188pt>
+<Exo_Field.png, id=215, 150.5625pt x 112.92188pt>
 File: Exo_Field.png Graphic file (type png)
 <use Exo_Field.png>
-Package pdftex.def Info: Exo_Field.png  used on input line 1184.
+Package pdftex.def Info: Exo_Field.png  used on input line 1310.
 (pdftex.def)             Requested size: 117.00635pt x 117.00864pt.
-<f_rgt10.png, id=209, 462.528pt x 346.896pt>
+<f_rgt10.png, id=216, 462.528pt x 346.896pt>
 File: f_rgt10.png Graphic file (type png)
 <use f_rgt10.png>
-Package pdftex.def Info: f_rgt10.png  used on input line 1201.
+Package pdftex.def Info: f_rgt10.png  used on input line 1327.
 (pdftex.def)             Requested size: 234.00238pt x 175.50133pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<f_rgt5.png, id=210, 462.528pt x 346.896pt>
+<f_rgt5.png, id=217, 462.528pt x 346.896pt>
 File: f_rgt5.png Graphic file (type png)
 <use f_rgt5.png>
-Package pdftex.def Info: f_rgt5.png  used on input line 1220.
+Package pdftex.def Info: f_rgt5.png  used on input line 1346.
 (pdftex.def)             Requested size: 155.99762pt x 117.00089pt.
-<f_rgt20.png, id=211, 462.528pt x 346.896pt>
+<f_rgt20.png, id=218, 462.528pt x 346.896pt>
 File: f_rgt20.png Graphic file (type png)
 <use f_rgt20.png>
-Package pdftex.def Info: f_rgt20.png  used on input line 1224.
+Package pdftex.def Info: f_rgt20.png  used on input line 1350.
 (pdftex.def)             Requested size: 155.99762pt x 117.00089pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38 </home/tom/Documents/Stage/Memoire/Exo_Genome.png (PNG copy)> </home/tom/Documents/Stage/Memoire/Exo_Field.png (PNG copy)>] [39 </home/tom/Documents/Stage/Memoire/f_rgt10.png> </home/tom/Documents/Stage/Memoire/f_rgt5.png> </home/tom/Documents/Stage/Memoire/f_rgt20.png>]
-<Hered_a50.png, id=225, 462.528pt x 346.896pt>
+[40 </home/tom/Documents/Stage/Memoire/Exo_Genome.png (PNG copy)> </home/tom/Documents/Stage/Memoire/Exo_Field.png (PNG copy)>] [41 </home/tom/Documents/Stage/Memoire/f_rgt10.png> </home/tom/Documents/Stage/Memoire/f_rgt5.png> </home/tom/Documents/Stage/Memoire/f_rgt20.png>]
+<Hered_a50.png, id=231, 462.528pt x 346.896pt>
 File: Hered_a50.png Graphic file (type png)
 <use Hered_a50.png>
-Package pdftex.def Info: Hered_a50.png  used on input line 1253.
+Package pdftex.def Info: Hered_a50.png  used on input line 1379.
 (pdftex.def)             Requested size: 234.00238pt x 175.50133pt.
-<Repro.png, id=226, 462.528pt x 346.896pt>
+<Repro.png, id=232, 462.528pt x 346.896pt>
 File: Repro.png Graphic file (type png)
 <use Repro.png>
-Package pdftex.def Info: Repro.png  used on input line 1271.
+Package pdftex.def Info: Repro.png  used on input line 1397.
 (pdftex.def)             Requested size: 234.00238pt x 175.50133pt.
-<Repro_magie.png, id=227, 462.528pt x 346.896pt>
+<Repro_magie.png, id=233, 462.528pt x 346.896pt>
 File: Repro_magie.png Graphic file (type png)
 <use Repro_magie.png>
-Package pdftex.def Info: Repro_magie.png  used on input line 1283.
+Package pdftex.def Info: Repro_magie.png  used on input line 1409.
 (pdftex.def)             Requested size: 234.00238pt x 175.50133pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40 </home/tom/Documents/Stage/Memoire/Hered_a50.png> </home/tom/Documents/Stage/Memoire/Repro.png>] [41 </home/tom/Documents/Stage/Memoire/Repro_magie.png>] [42] [43]
+[42 </home/tom/Documents/Stage/Memoire/Hered_a50.png> </home/tom/Documents/Stage/Memoire/Repro.png>] [43 </home/tom/Documents/Stage/Memoire/Repro_magie.png>] [44] [45]
 File: Hered_a50.png Graphic file (type png)
 <use Hered_a50.png>
-Package pdftex.def Info: Hered_a50.png  used on input line 1576.
+Package pdftex.def Info: Hered_a50.png  used on input line 1702.
 (pdftex.def)             Requested size: 234.00238pt x 175.50133pt.
- [44] [45] [46]
-<AP_allRGT_count20.png, id=256, 462.528pt x 346.896pt>
+ [46] [47] [48]
+<AP_allRGT_count20.png, id=262, 462.528pt x 346.896pt>
 File: AP_allRGT_count20.png Graphic file (type png)
 <use AP_allRGT_count20.png>
-Package pdftex.def Info: AP_allRGT_count20.png  used on input line 1823.
+Package pdftex.def Info: AP_allRGT_count20.png  used on input line 1949.
 (pdftex.def)             Requested size: 234.00238pt x 175.50133pt.
- [47] [48 </home/tom/Documents/Stage/Memoire/AP_allRGT_count20.png>]
+ [49] [50 </home/tom/Documents/Stage/Memoire/AP_allRGT_count20.png>]
 Chapter 4.
-[49
-
-]
-Appendix A.
-[50
-
-]
-Appendix B.
-
-Overfull \hbox (13.99774pt too wide) in paragraph at lines 1859--1859
-|[]\T1/cmr/bx/n/24.88 Mathematical demon-stra-tions| 
- []
-
 [51
 
 ]
-Overfull \hbox (83.7104pt too wide) detected at line 1891
+Appendix A.
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+) (/home/tom/Documents/Stage/Memoire/Exogenous.py [52
+
+] [53] [54]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
+ [55] [56] [57] [58] [59] [60] [61] [62] [63]) (/home/tom/Documents/Stage/Memoire/Sacrifice.py [64] [65] [66] [67] [68] [69] [70]) [71]
+Appendix B.
+
+Overfull \hbox (13.99774pt too wide) in paragraph at lines 1994--1994
+|[]\T1/cmr/bx/n/24.88 Mathematical demon-stra-tions| 
+ []
+
+[72
+
+]
+Overfull \hbox (83.7104pt too wide) detected at line 2026
 \OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 p \OMS/cmsy/m/n/12 ^^C [] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 M\OT1/cmr/m/n/12 (1 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 p\OT1/cmr/m/n/12 )[]\OML/cmm/m/it/12 x[]
  []
 
-<Beta.png, id=274, 462.528pt x 346.896pt>
+<Beta.png, id=341, 462.528pt x 346.896pt>
 File: Beta.png Graphic file (type png)
 <use Beta.png>
-Package pdftex.def Info: Beta.png  used on input line 1907.
+Package pdftex.def Info: Beta.png  used on input line 2042.
 (pdftex.def)             Requested size: 390.0pt x 292.5128pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[52] [53 </home/tom/Documents/Stage/Memoire/Beta.png>] [54]
+[73] [74 </home/tom/Documents/Stage/Memoire/Beta.png>] [75]
 \tf@thm=\write4
 \openout4 = `Memoire.thm'.
 
- [55] (/home/tom/Documents/Stage/Memoire/Memoire.aux)
+ [76] (/home/tom/Documents/Stage/Memoire/Memoire.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6343 strings out of 492616
- 90854 string characters out of 6135177
- 172473 words of memory out of 5000000
- 10108 multiletter control sequences out of 15000+600000
+ 8321 strings out of 492616
+ 116583 string characters out of 6135177
+ 631067 words of memory out of 5000000
+ 12063 multiletter control sequences out of 15000+600000
  29280 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,18n,46p,637b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1728.pfb>
-Output written on /home/tom/Documents/Stage/Memoire/Memoire.pdf (59 pages, 9042265 bytes).
+ 42i,18n,46p,637b,1805s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1728.pfb>
+Output written on /home/tom/Documents/Stage/Memoire/Memoire.pdf (80 pages, 9151124 bytes).
 PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
+ 463 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
